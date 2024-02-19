@@ -24,8 +24,5 @@ jobs:
       - name: Install dependencies
         run: make install
 
-      - name: Run main
-        run: make run
-
       - name: Run tests
         run: make tests
