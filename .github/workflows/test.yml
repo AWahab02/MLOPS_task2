@@ -25,4 +25,4 @@ jobs:
         run: make install
 
       - name: Run tests
-        run: make tests
+        run: make test
